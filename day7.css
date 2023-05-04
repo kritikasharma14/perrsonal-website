@@ -1,0 +1,186 @@
+    /* defining the global variables */
+    :root{
+        --primaryColor: #577D86;
+        --backgroundcolor: #8ddbc4;
+        --myTitleFont:'Sacramento', cursive;
+        --fontDefaultTextFont: 'Lato', sans-serif;
+        --fontDefaultHeading: 'Montserrat', sans-serif; 
+    }
+
+    /* main css */
+
+    body{
+        margin: 0px;
+        color: var(--primaryColor);
+        fontfamily:  var(--fontDefaultHeading);
+        line-height: 2;
+
+    }
+
+    .top-section{
+        background-color: var(--backgroundcolor);
+        color: var(--primaryColor);
+        /* height: 400px; */
+        text-align: center;
+        padding-top: 100px;
+        
+    }
+
+    .middle-section{
+        margin: 50px auto 100px auto;
+        text-align: center;
+        width: 60%;
+    }
+    .heading {
+        font-family: var(--myTitleFont);
+        font-size: 4.75rem;
+        margin: 0;
+    }
+    .bio {
+        font-family: var(--fontDefaultTextFont);
+        margin: 0;
+        font-size: 2.5rem;  /* 1em = 16px */
+        padding-bottom: 20px;
+    }
+    .top-cloud{
+        position: absolute;
+        margin-block-start: -100px;
+        margin-left: 300px;
+        width: 100px;
+        padding-top: 50px;
+    }
+    .bottom-cloud{
+        position: absolute;
+        margin-block-start: 50px;
+        margin-left: -200px;
+        width: 100px;
+    }
+    .mountain{
+        width: 300px;
+    }
+    img{
+        margin-bottom:-5px;
+    }
+    .profile_pic
+    {
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;
+        /* margin-left: 50%; */
+        display: block;
+        margin: 100px auto 100px auto;
+    }
+    .intro
+    {
+        width:75%;
+        margin: auto;
+        line-height: 2;
+    }
+    hr{
+        margin-top: 100px;
+        margin-bottom: 100px;
+        border: dotted var(--backgroundColor);
+        width: 5%;
+        border-bottom: none;
+
+    }
+    h2
+    {
+    text-align: center;
+    }
+    .skillpic1
+    {
+        width: 25%;
+        float: left;
+        margin-right: 30px;
+    }
+    h3{
+        display: block;
+        font-size: 1.17em;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+        
+    }
+
+    .skillimage
+
+    {
+    width:150px;
+    }
+    .left
+    {
+        float: left;
+        margin-right: 40px;
+    }
+    .right
+    {
+        float: right;
+        margin-right: 40px;
+    }
+    .trust
+    {
+        margin: 20%;
+    }
+    p
+    {
+        width:75%;
+        margin: auto;
+        line-height: 2;
+        color: #12d15b;
+        
+    }
+    .skillrow
+    {
+        text-align: center;
+        text-align: left;
+        margin-bottom: 80px;
+    }
+
+    a
+    {
+        text-decoration: none;
+        color: white;
+        
+    }
+
+    .contact
+    {
+    background-color: #249170 ;
+    font-size: 1.75rem;
+    padding: 10px 20px;
+    border-radius: 15px;
+    margin: 43%;
+
+    }
+    .contact:hover{
+        background-color: #215545 ;
+    }
+    .bottom-sec
+    {
+        margin: 0px auto;
+        text-align: center;
+        background-color:chocolate;
+    }
+    .social{
+        padding: 40px 80px;
+    }
+    .info
+    {
+        text-align: center;
+    }
+    .social-link{
+        margin:0px 40px;
+    }
+    .social-link:hover{
+        color: var(--backgroundcolor);
+    }
+
+
+    /* 
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif; 
+    */
